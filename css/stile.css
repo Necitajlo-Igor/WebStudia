@@ -1,13 +1,13 @@
-body{
-    font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
 }
-a{
-    text-decoration:none;
-    font-style: normal;
+a {
+  text-decoration: none;
+  font-style: normal;
 }
 
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
 
 h1,
@@ -17,119 +17,204 @@ h4,
 h5,
 h6,
 ul,
-p{
-margin-top: 0;
+p {
+  margin-top: 0;
 }
 
-img{
-    display: block;
-    max-width: 100%;
-    height: auto;
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
-.list{
-    margin: 0;
-    padding: 0;
-    list-style: none;
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .visually-hidden {
-position: absolute !important;
-clip: rect(1px 1px 1px 1px);
-clip: rect(1px, 1px, 1px, 1px);
-padding: 0 !important;
-border: 0 !important;
-height: 1px !important;
-width: 1px !important;
-overflow: hidden;
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
 }
 
-.container{
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    }
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
 /* хеадер */
 /* header */
-.top-navigation{
-    display: flex;
+.top-navigation {
+  display: flex;
 }
 
-.main-nav{
-display: flex;
-align-items: center;
+.main-nav {
+  display: flex;
+  align-items: center;
 }
 
-.logo{
-padding-top: 24px;
-padding-bottom: 25px;
+.logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
 
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-   
-letter-spacing: 0.03em;
-    
-color: #000000;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  letter-spacing: 0.03em;
+
+  color: #000000;
 }
 
-.span-logo{
-color: #2196F3;
+.span-logo {
+  color: #2196f3;
 }
 
 /* Шапка сайту*/
-.menu{
-display: block;
-padding-top: 32px;
-padding-bottom: 32px;
+.menu {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+
+.menu-list {
+  display: flex;
+  margin-left: 93px;
+}
+
+.menu-item {
+  margin-left: 50px;
+}
+
+.list-contakts {
+  display: flex;
+  margin-left: auto;
+}
+
+.list-contakts > .item {
+  margin-left: 50px;
+}
+
+.header-contakt {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+
+/* секція герой */
+.hiro{
+    background-color: #2F303A;
+    padding-top: 200px;
+    padding-bottom: 200px;
+background-image :linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../imegis/Img.png);
+margin-left: auto;
+margin-right: auto;
+height: 600px;
+max-width: 1600px;
+}
+
+.hiro-title {
+    color: #FFF;
+text-align: center;
+font-size: 44px;
 font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-
-color: #212121;
+font-weight: 900;
+line-height: 60px; /* 136.364% */
+letter-spacing: 2.64px;
+text-transform: uppercase;
+max-width: 696px;
+margin: 0 auto  30px;
 }
 
-.menu-list{
-    display: flex;
-    margin-left: 93px;
-   
-}
-
-.menu-item{
-    margin-left: 50px;
-}
-
-.list-contakts{
-    display: flex;
-    margin-left: auto;
-}
-
-.list-contakts >.item{
-    margin-left: 50px;
-}
-
-.header-contakt{
-display: block;
-padding-top: 32px;
-padding-bottom: 32px;
-
+.hiro-button {
+    color: #FFF;
+text-align: center;
+font-size: 16px;
 font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+font-weight: 700;
+line-height: 30px; /* 187.5% */
+letter-spacing: 0.96px;
+border-radius: 4px;
+background: #2196F3;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+padding: 10px 24px;
+margin-left: auto;
+margin-right: auto;
+cursor: pointer;
+display: flex;
+align-items: center;
 
-color: #757575;
 }
-    .link:hover,
-.link:focus{
-    color: #2196F3;
+
+.hiro-button:hover,
+.hiro-button:focus{
+    background-color: #2195f3b9;
 }
+
+
+/* наші переваги */
+.advantages{
+padding-top: 94px;
+}
+
+.advantages-list {
+display: flex;
+flex-wrap: wrap;
+gap: 30px;
+}
+
+.advantages-item{
+    flex-basis: calc((100% - 90px) / 4);
+}
+
+.advantages-title{
+    color: #212121;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
+
+.advantages-text{
+    color: #757575;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.42px;
+}
+
